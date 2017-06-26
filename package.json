@@ -1,0 +1,24 @@
+{
+  "name": "passport",
+  "version": "1.0.0",
+  "description": "Challenge Project for Passport. Creates factories and random number of children within bounds",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "socket": "nodemon socket.js"
+  },
+  "author": "Alexey Kalinin",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "ioredis": "^3.1.1",
+    "mongodb": "^2.2.29",
+    "redis": "^2.7.1",
+    "socket.io": "^2.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
