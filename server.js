@@ -2,7 +2,7 @@ const express = require('express');
 const MongoClient = require('mongodb').MongoClient;
 const bodyParser = require('body-parser');
 const db = require('./config/db');
-const port = 8000;
+const port = process.env.PORT || 8000;
 
 const app = express();
 //Node JS can't process URLEncoded parameters on its own - thats why we use the bodyParser library
